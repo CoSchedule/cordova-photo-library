@@ -4,7 +4,7 @@ function PhotoLibrary() {
 function setupDefaults(options) {
 
   var defaults = {
-    url: encodeURI(options.url), //required
+    url: options.url, //required
     albumName: null,
   };
 
